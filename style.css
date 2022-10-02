@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(52, 45, 45);
+    color: #fff;
+  }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/********** Header ************/
+
+header{
+    height: 50px;
+    border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
+    padding-bottom: 10px;
+}
+ 
+.title1{
+    padding-top: 20px;
+    margin: 0;
+    float: left;
+}
+
+/****** Menu ******/
+nav{
+    width: auto;
+    padding-left: 0;
+ }
+
+.liste{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding-top: 20px;
+    margin-right: 15px;
+}
+
+.liste li{
+    padding-right: 25px;
+    text-transform: uppercase;
+}
+
+.liste a:hover{
+    text-decoration: underline;
+}
+
+/********** Center **********/
+
+.main{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 20px;
+}
+
+.main h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.main h3{
+    text-align: center;
+}
+.blog{
+    height: 350px;
+    width: 25%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.projects{
+    height: 350px;
+    width: 25%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.tips{
+    height: 350px;
+    width: 25%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+/************ FOOTER *************/
+
+.footer h2{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer img{
+    width: 75px;
+}
+
+.footer a{
+    margin: 10px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+}

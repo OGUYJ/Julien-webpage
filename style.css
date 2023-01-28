@@ -1,11 +1,14 @@
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     font-size: 16px;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: rgb(52, 45, 45);
-    color: #fff;
+    color: #000
   }
 
 a{
@@ -19,6 +22,12 @@ header{
     height: 50px;
     border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
     padding-bottom: 10px;
+    background-color: #fff;
+}
+
+nav{
+    position:  fixed;
+    display: flex;
 }
  
 .title1{
@@ -52,61 +61,55 @@ nav{
 
 /********** Center **********/
 
-.main{
-   display: flex;
-   justify-content: space-evenly;
-   padding: 20px;
-}
-
-.main h2{
-    text-align: center;
-    font-weight: bold;
-}
-
-.main h3{
-    text-align: center;
-}
-.blog{
-    height: 350px;
-    width: 25%;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-
-.projects{
-    height: 350px;
-    width: 25%;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-
-.tips{
-    height: 350px;
-    width: 25%;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-
-
-
-
-/************ FOOTER *************/
-
-.footer h2{
-    text-align: center;
-    margin: 0;
-    padding-bottom: 25px;
-    color: white;
-}
-.footer img{
-    width: 75px;
-}
-
-.footer a{
-    margin: 10px;
-}
-
-.contacts{
+.description-container{
+    width: 100%;
+    height: 800px;
+    background: rgb(160, 154, 154);
+    border: solid white 1px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 100px ;
+}
+.main-text{
+    width: 35%
+}
+
+.main-text p{
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.h2-poste{
+    font-style: italic;
+}
+
+.main-pic{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    border: 3px rgba(255, 255, 255) solid;
+    background: url(./images/profil-color.jpg);
+    transition: 1s;
+}
+
+.btn-contact{
+    background-color: orangered;
+    width: 150px;
+    height: 60px;
+    border-radius: 80px;
+    border: inherit;
+}
+
+.btn-contact:hover{
+    cursor: pointer;
+    border: white 2px solid;
+}
+
+.main-pic:hover{
+    background: url(./images/profil-black.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    border: 3px rgba(255, 255, 255) solid;
+    transition: 1s;
 }

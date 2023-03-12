@@ -1,0 +1,22 @@
+{
+  "name": "site_julien_auguy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OGUYJ/Site-Perso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OGUYJ/Site-Perso/issues"
+  },
+  "homepage": "https://github.com/OGUYJ/Site-Perso#readme",
+  "dependencies": {
+    "webpack": "^5.75.0"
+  }
+}

@@ -20,6 +20,8 @@ header{
     padding: 0 15px;
     height: 70px;
     background-color: #E1DDDD;
+    /* position: fixed;
+    width: 100%; */
 }
 
 h2{
@@ -64,4 +66,61 @@ h2{
     width: 300px;
     height: 300px;
     border-radius: 15%;
+}
+
+/****** PARTIE STACK *****/
+.tools{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tools img {
+    width: 50px;
+    height: 50px;
+}
+
+.current-stack-flex{
+    display: flex;
+    
+}
+
+.learning-stack-flex{
+    display: flex;
+}
+
+.new-stack-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+/****** FOOOTER *****/
+
+/******  FORMS DE CONTACT *****/
+footer{
+    height: 400px;
+    background-color: #E1DDDD;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+footer h2{
+    text-align: left;
+}
+
+form{
+    width: 400px;
+}
+
+.submit-part{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.message-input{
+    width: 100%;
+    height: 250px;
 }

@@ -1,90 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
 
 *{
     box-sizing: border-box;
 }
 
 body{
-    max-height: 100vh;
-    font-size: 16px;
-  }
-
-a{
-    text-decoration: none;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kite One', sans-serif;
+    border-color: #E1DDDD;
 }
 
-/**** MAIN PART ****/
-
-.description-container{
+/****** HEADER *****/
+header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-    margin: 50px auto 0 auto;
-    width: 70%;
-    height: 400px;
-    padding: 10px;
-    box-shadow: 0px 0px 7px -3px rgb(92 85 85 / 47%)
-
+    padding: 0 15px;
+    height: 70px;
+    background-color: #E1DDDD;
 }
 
-.main-text {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: justify;
-}
-
-.main-text h1{
-    margin-bottom: 25px;
+h2{
     text-align: center;
 }
 
-.btn-contact{
-    width: 25%;
-    height: 30px;
-    border: 1px lightgray solid;
-    background-color: rgb(237, 238, 245);
-    border-radius: 5px;
-    margin: 0 auto;
-}
 
-
-.profile-pic {
-    background: url('images/profil-color.jpg');
-    background-size: cover;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.profile-pic:hover {
-    background: url('images/profil-black.jpg');
-    background-size: cover;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    margin-right: 10px;
-    margin-top: 10px;
-    transition: 0.5s;
-}
-
-/***** FOOTER ****/
-.contact img{
-    height: 40px;
-    width: 40px;
-}
-
-.contact {
+/****** TOP DESCRIPTION / FIRST SECTION *****/
+.main-description{
     display: flex;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+    height: 380px;
+}
+.text-description{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
 }
 
-.contact a {
-    margin-right: 20px;
+.profile-pic img{
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-right: 50px;
+    margin-top: 10px;   
+}
+
+
+/****** PARTIE PROJECTS *****/
+.realisations {
+    background-color: #E1DDDD;
+    height: 400px ;
+} 
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
 }

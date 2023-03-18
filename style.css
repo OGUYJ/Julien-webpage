@@ -6,10 +6,16 @@
 
 body{
     min-height: 100vh;
+    max-width: 1200px;
     padding: 0;
-    margin: 0;
+    margin: auto;
     font-family: 'Kite One', sans-serif;
     border-color: #E1DDDD;
+    background-color: #E1DDDD;
+}
+
+.container{
+    background-color: white;
 }
 
 /****** HEADER *****/
@@ -19,9 +25,7 @@ header{
     align-items: center;
     padding: 0 15px;
     height: 70px;
-    background-color: #E1DDDD;
-    /* position: fixed;
-    width: 100%; */
+    margin-top: 25px;
 }
 
 h2{
@@ -34,7 +38,7 @@ h2{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    height: 380px;
+    height: 300px;
 }
 .text-description{
     display: flex;
@@ -54,52 +58,104 @@ h2{
 
 /****** PARTIE PROJECTS *****/
 .realisations {
-    background-color: #E1DDDD;
     height: 400px ;
 } 
+
+.realisations h2{
+    padding: 20px 0 20px 0;
+}
 
 .projects{
     display: flex;
     justify-content: space-evenly;
 }
-.projects img {
-    width: 300px;
-    height: 300px;
+
+
+.project-1{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    background: url(img/stanos-2Yj6MBvJ0sg-unsplash.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.project-2{
+    width: 250px;
+    height: 250px;
+    background: url(img/frantzou-fleurine-thpUigrWn5g-unsplash.jpg) center no-repeat;
+    background-size: cover;
     border-radius: 15%;
 }
 
+
+.project-3{
+    width: 250px;
+    height: 250px;
+    background: url(img/mia-baker-CuoMduHwRZY-unsplash.jpg) no-repeat center ;
+    background-size: cover;
+    border-radius: 15%;
+}
+
+
 /****** PARTIE STACK *****/
 .tools{
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .tools img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
 }
 
-.current-stack-flex{
-    display: flex;
-    
+.tools h3{
+    text-align: center;
 }
 
-.learning-stack-flex{
+.current-stack{
+    width: 25%;
+}
+
+.learning-stack{
+    width: 25%;
+}
+
+.learning-stack h3{
+    margin-top: 20%;
+}
+
+.learning-stack-icons{
     display: flex;
 }
 
-.new-stack-flex{
+.col1, .col2{
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;    
 }
+
+.new-stack{
+    width: 25%;
+}
+
+.new-stack h3{
+    margin-top: 40%;
+}
+
+.new-stack-icons{
+    text-align: center
+}
+
 
 /****** FOOOTER *****/
 
 /******  FORMS DE CONTACT *****/
 footer{
     height: 400px;
-    background-color: #E1DDDD;
+    display: flex;
 }
 
 footer img {
@@ -107,7 +163,7 @@ footer img {
     height: 30px;
 }
 footer h2{
-    text-align: left;
+    text-align: right;
 }
 
 form{

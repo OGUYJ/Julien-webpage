@@ -18,6 +18,11 @@ body{
     background-color: white;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 /****** HEADER *****/
 header{
     display: flex;
@@ -156,27 +161,66 @@ h2{
 footer{
     height: 400px;
     display: flex;
+    align-items: top;
+    justify-content: center;
+    margin: auto;
+    padding-top: 25px;
 }
 
-footer img {
-    width: 30px;
+.contact, .social-medias {
+    width: 50%;
+    margin: 0 25px;
+}
+
+form  input{
+    border-radius: 10px;
+    border: 2px solid #e9dcdc;
+    border-radius: 5px;
+}
+
+
+.name-input, .email-input{
     height: 30px;
-}
-footer h2{
-    text-align: right;
-}
-
-form{
-    width: 400px;
-}
-
-.submit-part{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: inherit;
 }
 
 .message-input{
+    display: block;
     width: 100%;
-    height: 250px;
+    height: 150px;
+    margin-top: 5px;
+    font-family: inherit;
+    padding: 5px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #8facc6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+    height: 35px;
+    width: 50%;
+}
+/* OTHER SOCIAL MEDIAS */
+
+
+.social-medias ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px;
+}
+.social-medias img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 25px;
 }

@@ -3,6 +3,7 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
             <link rel="stylesheet" href="style.css">
             <title>Julien Auguy</title>
         </head>
@@ -19,6 +20,7 @@
                     </a>
                 </div>
             </header>
+                        <!----- TEXT DESCRIPTION + PICTURE ----->
 
             <section class="main-description">
                 <div class="text-description">
@@ -26,53 +28,57 @@
                     <p>Hello ! Actuellement en reconversion professionnelle, je vous souhaite la bienvenue sur cette première page. Une première version d'un portfolio qui ne demande qu'à être amélioré.<br>
                     Pour cela, j'ai décidé de commencer en autodidacte, entouré de devs seniors, puis de basculer sur la formation diplomate d'OpenClassRooms "Développeur d'application - JavaScript React"</p>
                 </div>
-                <div class="profile-pic"><img src="img/profile-color.jpg" alt=""></div>
+                <div class="profile-pic">
+                    <img src="img/profile-color.jpg" alt="">
+                </div>
             </section>
 
-            <section class="realisations">
+                        <!----- MES REALISATIONS ----->
+            
+             <section class="realisations">
                 <h2>Mes réalisations</h2>
                 <div class="projects">
-                    <div class="project-1"></div>
-                    <div class="project-2"></div>
+                    <div class="project-1 mb-sm-3"></div>
+                    <div class="project-2 mb-sm-3"></div>
                     <div class="project-3"></div>
                 </div>
             </section>
 
+                        <!----- STACK / TOOLS ----->
+
             <section class="tools">
-                    <div class="current-stack">
-                        <h3>Je travaille actuellement avec</h3>
-                        <div class="col1">
-                            <div class="html"><img src="img/icons/005-html-5.png" alt=""></div>
-                            <div class="css"><img src="img/icons/004-css-3.png" alt=""></div>
-                        </div>
-                        <div class="col2">
-                            <div class="javascript"><img src="img/icons/006-js.png" alt=""></div>
-                            <div class="git"><img src="img/icons/002-merge.png" alt=""></div>
-                        </div>
+                <div class="row d-flex justify-content-center mt-5">
+                <div class="container-fluid col-lg-4">
+                    <div class="row  mb-sm-5">
+                    <h3 class="text-center">Je travaille actuellement avec</h3>
+                        <div class="col-sm-6 d-flex justify-content-sm-end"><img src="img/icons/005-html-5.png" alt=""></div>
+                        <div class="col-sm-6 d-flex justify-content-sm-start"><img src="img/icons/004-css-3.png" alt=""></div>
+                        <div class="col-sm-6 d-flex justify-content-sm-end"><img src="img/icons/006-js.png" alt=""></div>
+                        <div class="col-sm-6 d-flex justify-content-sm-start"><img src="img/icons/002-merge.png" alt=""></div>
                     </div>
+                </div>
                 
-                <div class="learning-stack">
-                    <h3>Je monte en compétences sur</h3>
-                    <div class="col1">
-                        <div class="typescript"><img src="img/icons/001-typescript.png" alt=""></div>
-                        <div class="webpack"><img src="img/icons/icons8-webpack-144.png" alt=""></div>
-                    </div>
-                    <div class="col2">    
-                        <div class="bootstrap"><img src="img/icons/007-bootstrap.png" alt=""></div>
-                        <div class="figma"><img src="img/icons/icons8-figma-144.png" alt=""></div>
-                    </div>
+                <div class="container-fluid col-lg-4 mb-sm-5">
+                    <h3 class="text-center">Je monte en compétences sur</h3>
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-sm-end"><img src="img/icons/001-typescript.png" alt=""></div>
+                        <div class="col-6 d-flex justify-content-sm-start"><img src="img/icons/icons8-webpack-144.png" alt=""></div>
+                        <div class="col-6 d-flex justify-content-sm-end"><img src="img/icons/007-bootstrap.png" alt=""></div>
+                        <div class="col-6 d-flex justify-content-sm-start"><img src="img/icons/icons8-figma-144.png" alt=""></div>
+                    </div> 
                 </div>
 
-                <div class="new-stack">
-                    <h3>Je découvre et j'apprends</h3>
-                    <div class="new-stack-icons">
-                        <div class="react"><img src="img/icons/003-react.png" alt="">
-                        </div>
-                    </div>
+
+                <div class="container-fluid col-lg-4 mb-sm-5">
+                    <h3 class="text-center mt-sm-">Je découvre et j'apprends</h3>
+                        <div class="d-flex justify-content-center"><img src="img/icons/003-react.png" alt="react"></div>
                 </div>
+            </div>
             </section>
-            
+
+
             <footer>
+                        <!----- FORM ----->
                 <div class="contact">
                     <h2>Contactez-moi</h2>
                     <form>
@@ -84,6 +90,7 @@
                         </div>
                     </form>
                 </div>
+                        <!----- SOCIAL MEDIAS ----->
 
                 <div class="social-medias">
                     <h2>Ou retrouvez-moi sur...</h2>
@@ -95,5 +102,6 @@
                 </div>
             </footer>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

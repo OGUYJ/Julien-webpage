@@ -21,25 +21,21 @@ a{
     color: inherit;
 }
 
-/****** HEADER *****/
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    padding: 0 15px;
-}
-
 h2{
     text-align: center;
 }
 
-.burger-menu div{
-    height: 3px;
-    width: 40px;
-    border-radius: 5px;
-    margin: 8px;
-    background-color: black;
+/****** HEADER *****/
+
+header img{
+    width: 30px;
+    height: 30px;
+}
+
+.button-toggle{
+    margin: 10px 0;
+    height: 40px;
+    width: 10%;
 }
 
 /****** TOP DESCRIPTION / FIRST SECTION *****/
@@ -77,50 +73,33 @@ h2{
     border-radius: 100px;
 }
 
-/****** PARTIE REALISATIONS *****/
-.realisations {
-    height: auto ;
-    display: block;
-} 
-
-.realisations h2{
-    padding: 20px 0 20px 0;
-}
-
+/****** MES REALISATIONS *****/
 .projects{
     display: flex;
     justify-content: space-evenly;
 }
 
-
-.project-1{
+.project-1, .project-2, .project-3{
     width: 250px;
     height: 250px;
     border-radius: 10px;
-    background: url(img/stanos-2Yj6MBvJ0sg-unsplash.jpg) no-repeat center;
-    background-size: cover;
 }
 
-.project-2{
-    width: 250px;
-    height: 250px;
+.project-1{
     background: url(img/frantzou-fleurine-thpUigrWn5g-unsplash.jpg) center no-repeat;
     background-size: cover;
-    border-radius: 15px;
 }
-
-
+.project-2{
+    background: url(img/stanos-2Yj6MBvJ0sg-unsplash.jpg) center no-repeat;
+    background-size: cover;
+}
 .project-3{
-    width: 250px;
-    height: 250px;
     background: url(img/mia-baker-CuoMduHwRZY-unsplash.jpg) no-repeat center ;
     background-size: cover;
-    border-radius: 15px;
 }
 
 
 /****** PARTIE STACK *****/
-
 .tools img {
     width: 70px;
     height: 70px;
@@ -130,32 +109,28 @@ h2{
 /****** FOOOTER *****/
 
 /******  FORMS DE CONTACT *****/
-footer{
-    height: 400px;
-    display: flex;
-    align-items: top;
-    justify-content: center;
-    margin: auto;
-    padding-top: 25px;
-}
 
-.contact, .social-medias {
-    width: 50%;
-    margin: 0 25px;
-}
 
-form  input{
+
+form{
     border-radius: 10px;
-    border: 2px solid #e9dcdc;
     border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 5px;
 }
+
+
 
 
 .name-input, .email-input{
-    height: 30px;
+    height: 40px;
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
+
     display: block;
     font-family: inherit;
 }
@@ -167,10 +142,10 @@ form  input{
     margin-top: 5px;
     font-family: inherit;
     padding: 5px;
-    border: 2px solid #e9dcdc;
+    /* border: 2px solid #e9dcdc; */
 }
 
-button{
+.button-submit{
     cursor: pointer;
     background-color: #8facc6;
     border: none;
@@ -179,24 +154,10 @@ button{
     display: block;
     font-size: 16px;
     margin: 10px auto;
-    height: 35px;
-    width: 50%;
-}
-/* OTHER SOCIAL MEDIAS */
-
-
-.social-medias ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style-type: none;
-    padding: 15px;
-}
-.social-medias img{
-    width: 40px;
     height: 40px;
-    margin-bottom: 25px;
+    width: 30%;
 }
+
 
 /******** MEDIA QUERIES *******/
 @media screen and (max-width: 991px) {
